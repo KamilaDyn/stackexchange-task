@@ -74,7 +74,6 @@ export const useGetTags = (): UseTags => {
     const tagsNumber = Number((e.target as HTMLInputElement).value);
 
     if (tagsNumber > 0 && e.key === 'Enter') {
-      console.log(tagsNumber);
       setPageValue(tagsNumber);
       setParams((prevValue) => ({
         ...prevValue,
