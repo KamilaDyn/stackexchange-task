@@ -11,7 +11,7 @@ const context = {
     toggleColorMode: () => {},
   },
   displayAlert: null,
-  toggleAlert: (alert: Alert | null) => {},
+  toggleAlert: (_: Alert | null) => {},
 };
 
 export const AppContext = createContext<Context>(context);

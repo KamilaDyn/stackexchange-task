@@ -7,8 +7,7 @@ import { TagsItems, TableHeadModal } from './TableHead.modal';
 const defaultArgs = {
   orderBy: 'name',
   headCells: headCells,
-  createSortHandler:
-    (property: keyof TagsItems) => (event: MouseEvent<unknown>) => {},
+  createSortHandler: (_: keyof TagsItems) => (_: MouseEvent<unknown>) => {},
   order: 'asc',
 };
 
