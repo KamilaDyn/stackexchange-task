@@ -28,7 +28,7 @@ export const useGetTags = (): UseTags => {
   const [params, setParams] = useState<Params>(initialParams);
   const [order, setOrder] = useState<Order>('asc');
   const [orderBy, setOrderBy] = useState<keyof TagsItems>('name');
-  const [pageValue, setPageValue] = useState(10);
+  const [pageValue, setPageValue] = useState(5);
 
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
 
